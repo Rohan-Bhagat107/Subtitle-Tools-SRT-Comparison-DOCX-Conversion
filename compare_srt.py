@@ -6,13 +6,6 @@ from difflib import SequenceMatcher
 import os
 from logging import exception
 
-
-import re
-from datetime import datetime
-from difflib import SequenceMatcher
-import os
-from logging import exception
-
 # Function for validating user input
 def validator(file_path):
     if os.path.exists(file_path): # Checking the received path exists or not
